@@ -1,0 +1,51 @@
+.rideContainer {
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 95vh;
+}
+
+.rideContainer h1 {
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+.rideText {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+.rideContainer a {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.rideContainer .linkbutton {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: #fff;
+}
+.rideContainer .linkbutton:hover {
+  transition: 0.5s;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #000;
+}
+.rideContainer .rideImageBox {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  .rideText {
+    width: 90%;
+  }
+  .rideImageBox {
+    display: none !important;
+  }
+}

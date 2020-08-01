@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Chettan|Montserrat");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #007bff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.balooBold {
+  font-family: "Baloo Chettan" !important;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  color: #000;
+}
+
+nav .balooBold h1 {
+  text-align: left;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+nav .navRight {
+  padding-right: 1rem;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+nav .navRight ul {
+  margin-left: auto;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+}
+
+.navActive {
+  color: #007bff;
+}
+
+.featured {
+  height: 85vh;
+}
+
+.featured p {
+  text-shadow: black 0px 2px 5px;
+  color: #f8f8f8;
+  font-weight: 700;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 1rem;
+  margin-left: 50%;
+  margin-top: auto;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.about .aboutHeader {
+  background: #007bff;
+  color: #fff;
+}
+
+.about .aboutHeader h1 {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.about .aboutHeader h3 {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.about .aboutText {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+  background: whitesmoke;
+  margin-bottom: 1rem;
+}
+
+.about .equipment {
+  background: whitesmoke;
+  padding: 1rem;
+}
+
+.about .equipment h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.about .equipment p {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutText {
+    width: auto !important;
+  }
+  .aboutHeader h3 {
+    width: 100%;
+  }
+  nav .balooBold h1 {
+    font-size: 1rem;
+  }
+  .featured p {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=app.css.map */
